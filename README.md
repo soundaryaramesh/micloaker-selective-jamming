@@ -1,4 +1,4 @@
-# MiCloaker
+# MiCloaker: Selective Microphone Recording with Acoustic Structures
 This repo contains 3D-printing files and code to replicate MiCloaker's hardware setup and results. 
 
 ## Hardware Setup
@@ -8,7 +8,8 @@ We place the speakers and the microphones on two different [projector stands](ht
 - Audible Speaker (for transmitting speech): Adam Audio A3X studio monitor with flat frequency response in the audible range. 
 - MiCloaker structures: 3D-print the prototypes mentioned in the _prototype-files_ folder. We used Asiga Max X27 printer and MakerBot Sketch 3D-printer to 3D-print the resonators and waveguide, respectively.
 - Microphone: DF-Robot S15OT421 Breakout Board.
-- Audio Interfaces for Connecting Speakers, Microphones to Laptop: [Scarlett Solo](https://focusrite.com/products/scarlett-solo), [Behringer 202HD](https://www.behringer.com/product.html?modelCode=0805-AAR). 
+- Audio Interfaces for Connecting Speakers, Microphones to Laptop: [Scarlett Solo](https://focusrite.com/products/scarlett-solo), [Behringer 202HD](https://www.behringer.com/product.html?modelCode=0805-AAR).
+- Other Useful Tools: [Arm Clamp](https://shopee.sg/Solder-Helping-Hands-Soldering-Aids-Hand-Tool-with-Flexible-Arms-Clamp-Swivel-i.328435272.23656935887) to support the microphone board in place, [Bostik Blu Tack](https://shopee.sg/Bostik-Blu-tack-75g-Blue-White-i.304740536.10034505185) to prevent audio leakage around the microphone. 
 
 ## Ultrasound Jamming Signal Creation
 We utilize the technique proposed in the [InfoMasker paper](https://www.ndss-symposium.org/ndss-paper/infomasker-preventing-eavesdropping-using-phoneme-based-noise/) to create lower sideband phoneme-based ultrasound jamming noise. We present sample files for ultrasound jamming in the _sample-files_ folder.  
