@@ -14,10 +14,10 @@ We place the speakers and the microphones on two different [projector stands](ht
 We utilize the technique proposed in the [InfoMasker paper](https://www.ndss-symposium.org/ndss-paper/infomasker-preventing-eavesdropping-using-phoneme-based-noise/) to create lower sideband phoneme-based ultrasound jamming noise. We present sample files for ultrasound jamming in the _sample-files_ folder.  
 
 ## Ensuring Safety Limits for Ultrasound Signals
-We record the ultrasound signals alone using a microphone (without any amplification) to ensure that the recorded level is within the safety limits. We follow the guidelines mentioned [here](https://www.sciencedirect.com/science/article/pii/S0079610706000885). In addition, while performing experiments, we use [3M Peltor X5 earmuffs](https://www.3m.com.sg/3M/en_SG/p/d/v000137089/) for additional safety. 
+We record the ultrasound signals alone using a microphone (without any amplification) to ensure that the recorded level is within the safety limits. We follow the guidelines mentioned [here](https://www.sciencedirect.com/science/article/pii/S0079610706000885). In addition, while performing experiments, we use [3M Peltor X5 earmuffs](https://www.3m.com.sg/3M/en_SG/p/d/v000137089/) for safety. 
 
 ## SJR Calibration
-To record jammed speech at different SJRs as mentioned in the paper, we perform calibration where-in we capture the jamming noise and the audible speech separately. We continuously tune th the transmission volume of the audible speech signal till we achieve the required SJR. 
+To record jammed speech at different SJRs as mentioned in the paper, we perform calibration where-in we capture the jamming noise and the audible speech separately. We continuously tune the transmission volume of the audible speech signal till we achieve the required SJR. 
 
 ## Demo Results
 We share a few representative output audio files for both carrier frequencies, at a wide range of SNRs in the _demo-files_ folder. 
